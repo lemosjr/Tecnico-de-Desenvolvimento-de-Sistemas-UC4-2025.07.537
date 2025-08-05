@@ -1,0 +1,1 @@
+# Proponha uma classe a ser criada em Python. Crie pelo menos 4 atributos para essa classe e implemente pelo menos um método para visualizar essas informações. Instanciar 3 objetos dessa classe e exibir as informações de cada um deles.
