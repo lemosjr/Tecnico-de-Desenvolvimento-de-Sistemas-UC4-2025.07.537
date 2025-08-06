@@ -1,7 +1,13 @@
 from Pessoa import Pessoa
 
-pessoa1 = Pessoa("Maria", 25, 1.65)
-pessoa2 = Pessoa("João", 30, 1.80)
+pessoa1 = Pessoa("Maria", 17, 1.65, 70, "Feminino")
+pessoa2 = Pessoa("João", 30, 1.80, 80)
+
+pessoa1.verInformacoes()
+pessoa2.verInformacoes()
 
 
-print(pessoa1)
+if (pessoa1.validarIdade()):
+    print("Pessoa 1 é maior de idade")
+else:
+    print("Pessoa 1 é menor de idade")
