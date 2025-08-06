@@ -3,7 +3,7 @@ class Funcionario:
         self.nome = nome
         self.cpf = cpf
         self.cargo = cargo
-
+        
         if self.cargo == "Gerente":
             self.salario = 5000
         elif self.cargo == "Supervisor":
